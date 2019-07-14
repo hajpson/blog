@@ -1,0 +1,113 @@
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5372f5;
+    color: azure;
+    
+}
+
+.clearfix:after {
+    content:    "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: "Montserrat", Arial;
+    font-size: 20px;
+}
+
+h1, h2  {
+    color:  #fae22e;
+}
+
+h1  {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2  {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-size: 25px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.author2 {
+    font-size: 25px;
+    float: right;
+    margin-top: 135px;
+    margin-left: 10px;
+    text-align: center;
+    
+}
+
+.container {
+    width: 1150px;
+    margin: 20px auto 0 auto;
+}
+
+.main {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.inne {
+    width: 25%;
+    float: left;
+}
+
+.dol {
+    padding-top: 100px;
+}
+
+.dol img {
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+}
+
+.zrodla {
+    margin-bottom: 40px;
+    color: #fae22e;
+    text-align: center;
+}
+
+.zrodla img {
+    height: 80px;
+}
+
+.main img {
+    height: 150px;
+    width: auto;
+    margin: 100px 0 100px 0;
+}
+
+.date {
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+p {
+    margin: 50px 0 100px 0;
+    
+}
